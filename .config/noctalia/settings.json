@@ -56,8 +56,8 @@
         "frameRadius": 12,
         "frameThickness": 8,
         "hideOnOverview": false,
-        "marginHorizontal": 4,
-        "marginVertical": 4,
+        "marginHorizontal": 13,
+        "marginVertical": 8,
         "middleClickAction": "none",
         "middleClickCommand": "",
         "middleClickFollowMouse": false,
@@ -398,6 +398,9 @@
                     "textColor": "none"
                 },
                 {
+                    "id": "plugin:project-manager"
+                },
+                {
                     "hideWhenZero": false,
                     "hideWhenZeroUnread": false,
                     "iconColor": "none",
@@ -420,36 +423,6 @@
                     "icon": "noctalia",
                     "id": "ControlCenter",
                     "useDistroLogo": false
-                },
-                {
-                    "defaultSettings": {
-                        "animate_window": true,
-                        "animation_cards_duration": 750,
-                        "animation_window_duration": 500,
-                        "background_color": null,
-                        "background_opacity": null,
-                        "card_height": 350,
-                        "card_spacing": 6,
-                        "card_strip_width": 90,
-                        "cards_shown": 11,
-                        "center_width_ratio": 0.33,
-                        "hide_help": false,
-                        "hide_top_bar": false,
-                        "image_filter": [
-                            "png",
-                            "jpg",
-                            "jpeg"
-                        ],
-                        "live_preview": false,
-                        "selected_filter": "images",
-                        "shear_factor": -0.25,
-                        "top_bar_height": 35,
-                        "video_filter": [
-                            "mp4",
-                            "avi"
-                        ]
-                    },
-                    "id": "plugin:wallcards"
                 }
             ]
         }
@@ -597,8 +570,8 @@
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
         "allowPasswordWithFprintd": false,
-        "animationDisabled": true,
-        "animationSpeed": 1,
+        "animationDisabled": false,
+        "animationSpeed": 1.5,
         "autoStartAuth": false,
         "avatarImage": "/home/d7251/.face",
         "boxRadiusRatio": 1,
