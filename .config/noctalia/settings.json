@@ -660,7 +660,7 @@
         "telemetryEnabled": false
     },
     "hooks": {
-        "colorGeneration": "/home/d7251/dev/noctalia/tile_border_sync.py",
+        "colorGeneration": "/home/d7251/.config/noctalia/hypr_color_sync.py",
         "darkModeChange": "",
         "enabled": true,
         "performanceModeDisabled": "",
