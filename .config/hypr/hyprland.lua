@@ -273,7 +273,11 @@ hl.window_rule({
     no_focus = true,
 })
 
-
+-- force tiling on all steam windows, because steam reasons
+hl.window_rule({
+    match = { class = "^(steam_app_.*)$" },
+    tile = true
+})
 
 -- Layer rules also return a handle.
 -- local overlayLayerRule = hl.layer_rule({
