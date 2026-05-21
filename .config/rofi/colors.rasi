@@ -1,0 +1,9 @@
+* {
+    bg-col:          #111416;
+    bg-col-light:    #1d2022;
+    border-col:      #41484d;
+    accent-col:      #79d1ff;
+    fg-col:          #e1e2e5;
+    fg-col-dim:      #c0c7cd;
+    fg-on-accent:    #003549;
+}

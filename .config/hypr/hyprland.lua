@@ -25,7 +25,7 @@ require("monitors")
 TerminalSh = "/home/d7251/.config/pet-assistant/pet-term.sh"
 Terminal    = "ghostty"
 FileManager = "dolphin"
-Menu        = "rofi -show drun -modi drun, run, ssh"
+Menu        = "/home/d7251/.config/rofi/launch.sh"
 
 -------------------
 ---- AUTOSTART ----
